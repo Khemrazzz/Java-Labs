@@ -12,7 +12,7 @@ temperature is above 100, the program prints “VAPOUR”.
 import java.io.*;
 import java.util.Scanner;
 
-public class Lab5Ex5{
+public class Lab3Ex5{
     public static void main(String args[]){
 
         Scanner input = new Scanner(System.in);

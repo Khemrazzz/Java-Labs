@@ -11,7 +11,7 @@ consonant otherwise it prints wrong input.
 import java.io.*;
 import java.util.Scanner;
 
-public class Lab4Ex4{
+public class Lab3Ex4{
     public static void main(String args[]){
 
         Scanner input = new Scanner(System.in);
