@@ -4,7 +4,7 @@ Author: Khemrazzz
 *Selection*
 *Using Scanner Class* 
 
-Question 2: Write a program that accepts two numbers and checks which of the two numbers is greater than
+Question 3: Write a program that accepts two numbers and checks which of the two numbers is greater than
 the other.
 */
 
