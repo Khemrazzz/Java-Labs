@@ -4,7 +4,7 @@ Author: Khemrazzz
 *Selection*
 *Using Scanner Class* 
 
-Write a program that accepts a time as three integers (hr, mm, ss). The program should validate
+Question 8: Write a program that accepts a time as three integers (hr, mm, ss). The program should validate
 the time and then prints whether the time entered is valid or not.
 */
 
