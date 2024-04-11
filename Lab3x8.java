@@ -17,6 +17,7 @@ public class Lab3x8{
         Scanner input = new Scanner(System.in);
 
         int hr, mm, ss = 0;
+        String timeFormat;
 
         System.out.print("Enter the value for hours : ");
         hr = input.nextInt();
@@ -25,10 +26,12 @@ public class Lab3x8{
         System.out.print("Enter the value for seconds : ");
         ss = input.nextInt();
 
-        if (((hr >= 0) && (hr <= 23)) && ((mm >= 0) && (mm <= 59)) && ((ss >= 0) && (ss <= 59)))
-        System.out.println("Time entered is valid.\nTime: " + hr + ":" + mm + ":" + ss);
-        else 
+        if (((hr >= 0) && (hr <= 23)) && ((mm >= 0) && (mm <= 59)) && ((ss >= 0) && (ss <= 59))){
+        timeFormat = String.format("%02d:%02d:%02d", hr, mm, ss); // used to display time in format 00:00:00
+        System.out.println("Time entered is valid.\nTime: " + timeFormat);
+        }else{
         System.out.println("Invalid time!");
+        }
 
         input.close();
     }
